@@ -1,0 +1,24 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.navbar-Light{
+    background-color: $purple-900;
+  }
+  .navbar-Dark{
+    background-color: #004c4c;
+  }
+
+.nav-link-Light{
+  font-weight: 600;
+  font-style: italic;
+  color : $purple-200 !important;
+  
+}
+a.nav-link:hover{
+    color : $purple-600 !important;
+  }
+a.active{
+  color : $purple-600 !important;
+}
+body{
+  background-color: $purple-100;
+}
